@@ -1,7 +1,9 @@
-# with-typescript-graphql-tailwind-
+# with-typescript-graphql-tailwind
 a ready to use nextjs + typescript + tailwind + graphql + apollo starter
 
 # Tailwind CSS, Typescript, GraphQL, Apollo example
+
+A merge of Nextjs' [with-tailwind](https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss) and [with-typescript-graphql](https://github.com/vercel/next.js/tree/canary/examples/with-typescript-graphql).
 
 This is an example of using [Tailwind CSS](https://tailwindcss.com), Typescript, GraphQL, Apollo in a Next.js project.
 
