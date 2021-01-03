@@ -9,7 +9,7 @@ This is an example of using [Tailwind CSS](https://tailwindcss.com), Typescript,
 
 Deploy the example using [Vercel](https://vercel.com):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/PeerRich/with-typescript-graphql-tailwind-/)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/PeerRich/with-typescript-graphql-tailwind/)
 
 ## How to use
 
