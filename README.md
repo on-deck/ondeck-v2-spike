@@ -1,4 +1,4 @@
-# with-typescript-graphql-tailwind-
+# with-typescript-graphql-tailwind
 a ready to use nextjs + typescript + tailwind + graphql + apollo starter
 
 # Tailwind CSS, Typescript, GraphQL, Apollo example
