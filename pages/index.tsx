@@ -53,11 +53,11 @@ const Index = () => {
               background:
                 "linear-gradient(-270deg, #0b1751 0%, #1c114b 53.28%, #2f1529 100%);",
             }}
-            className="p-16 w-full rounded-xl rounded-t-none"
+            className="p-16 animate w-full rounded-xl rounded-t-none"
           >
             <div className="lg:flex md:block">
               <div className="relative w-1/3 px-4">
-                <div className="relative z-10">
+                <div className="relative z-10 ">
                   <Avatar />
                 </div>
 
@@ -71,7 +71,7 @@ const Index = () => {
                     background:
                       "linear-gradient(270deg, #E35275 0%, #773FE2 53.28%, #315BE8 100%);",
                   }}
-                  className="z-0 absolute rounded-full -mt-10"
+                  className=" animate-pulse duration-700 z-0 absolute rounded-full -mt-10"
                 ></div>
 
                 <div
@@ -84,7 +84,7 @@ const Index = () => {
                     background:
                       "linear-gradient(270deg, #E35275 0%, #773FE2 53.28%, #315BE8 100%);",
                   }}
-                  className="z-0 absolute rounded-full -mt-10"
+                  className=" animate-pulse delay-200 z-0 absolute rounded-full -mt-10"
                 ></div>
 
                 <div
@@ -97,7 +97,7 @@ const Index = () => {
                     background:
                       "linear-gradient(270deg, #E35275 0%, #773FE2 53.28%, #315BE8 100%);",
                   }}
-                  className="z-0 absolute rounded-full -mt-10"
+                  className=" animate-pulse delay-300 z-0 absolute rounded-full -mt-10"
                 ></div>
 
                 <div style={{ maxWidth: 200 }} className="mt-14">
@@ -174,15 +174,21 @@ const Index = () => {
                       Primary skillset
                     </div>
                     <div>
-                      <span className=" border-b-2 border-dotted border-gray-500">
+                      <a
+                        href="#"
+                        className=" border-b-2 border-dotted border-gray-500"
+                      >
                         Software engineering
-                      </span>
+                      </a>
                       <span className="px-2" style={{ color: "#ADBEF7" }}>
                         •
                       </span>
-                      <span className=" border-b-2 border-dotted border-gray-500">
+                      <a
+                        href="#"
+                        className=" border-b-2 border-dotted border-gray-500"
+                      >
                         Product management
-                      </span>
+                      </a>
                     </div>
                   </div>
 
@@ -194,27 +200,39 @@ const Index = () => {
                       Experienced in
                     </div>
                     <div>
-                      <span className=" border-b-2 border-dotted border-gray-500">
+                      <a
+                        href="#"
+                        className=" border-b-2 border-dotted border-gray-500"
+                      >
                         Crypto/Blockchain
-                      </span>
+                      </a>
                       <span className="px-2" style={{ color: "#ADBEF7" }}>
                         •
                       </span>
-                      <span className=" border-b-2 border-dotted border-gray-500">
+                      <a
+                        href="#"
+                        className=" border-b-2 border-dotted border-gray-500"
+                      >
                         B2B SaaS
-                      </span>
+                      </a>
                       <span className="px-2" style={{ color: "#ADBEF7" }}>
                         •
                       </span>
-                      <span className=" border-b-2 border-dotted border-gray-500">
+                      <a
+                        href="#"
+                        className=" border-b-2 border-dotted border-gray-500"
+                      >
                         Fintech
-                      </span>
+                      </a>
                       <span className="px-2" style={{ color: "#ADBEF7" }}>
                         •
                       </span>
-                      <span className=" border-b-2 border-dotted border-gray-500">
+                      <a
+                        href="#"
+                        className=" border-b-2 border-dotted border-gray-500"
+                      >
                         + 3 more
-                      </span>
+                      </a>
                     </div>
                   </div>
 
@@ -226,21 +244,30 @@ const Index = () => {
                       Excited about
                     </div>
                     <div>
-                      <span className=" border-b-2 border-dotted border-gray-500">
+                      <a
+                        href="#"
+                        className=" border-b-2 border-dotted border-gray-500"
+                      >
                         Health & Wellness
-                      </span>
+                      </a>
                       <span className="px-2" style={{ color: "#ADBEF7" }}>
                         •
                       </span>
-                      <span className=" border-b-2 border-dotted border-gray-500">
+                      <a
+                        href="#"
+                        className=" border-b-2 border-dotted border-gray-500"
+                      >
                         Future of work
-                      </span>
+                      </a>
                       <span className="px-2" style={{ color: "#ADBEF7" }}>
                         •
                       </span>
-                      <span className=" border-b-2 border-dotted border-gray-500">
+                      <a
+                        href="#"
+                        className=" border-b-2 border-dotted border-gray-500"
+                      >
                         Fintech
-                      </span>
+                      </a>
                     </div>
                   </div>
                 </div>
