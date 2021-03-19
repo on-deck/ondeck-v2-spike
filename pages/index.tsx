@@ -53,13 +53,54 @@ const Index = () => {
               background:
                 "linear-gradient(-270deg, #0b1751 0%, #1c114b 53.28%, #2f1529 100%);",
             }}
-            className="p-12 w-full rounded-xl rounded-t-none"
+            className="p-16 w-full rounded-xl rounded-t-none"
           >
-            <div className="flex">
-              <div className="w-1/3 px-4">
-                <Avatar />
+            <div className="lg:flex md:block">
+              <div className="relative w-1/3 px-4">
+                <div className="relative z-10">
+                  <Avatar />
+                </div>
 
-                <div style={{ maxWidth: 200 }} className="mt-8">
+                <div
+                  style={{
+                    top: 20,
+                    left: 20,
+                    width: 245,
+                    height: 245,
+                    mixBlendMode: "overlay",
+                    background:
+                      "linear-gradient(270deg, #E35275 0%, #773FE2 53.28%, #315BE8 100%);",
+                  }}
+                  className="z-0 absolute rounded-full -mt-10"
+                ></div>
+
+                <div
+                  style={{
+                    top: 0,
+                    left: 0,
+                    width: 245,
+                    height: 245,
+                    mixBlendMode: "overlay",
+                    background:
+                      "linear-gradient(270deg, #E35275 0%, #773FE2 53.28%, #315BE8 100%);",
+                  }}
+                  className="z-0 absolute rounded-full -mt-10"
+                ></div>
+
+                <div
+                  style={{
+                    top: 31,
+                    left: -12,
+                    width: 245,
+                    height: 245,
+                    mixBlendMode: "overlay",
+                    background:
+                      "linear-gradient(270deg, #E35275 0%, #773FE2 53.28%, #315BE8 100%);",
+                  }}
+                  className="z-0 absolute rounded-full -mt-10"
+                ></div>
+
+                <div style={{ maxWidth: 200 }} className="mt-14">
                   <button
                     style={{ background: "#315CEA" }}
                     className="min-w-full mb-4 rounded-full border-transparent border text-white text-sm px-4 py-2"
@@ -128,7 +169,7 @@ const Index = () => {
                   <div className="flex my-4">
                     <div
                       style={{ color: "#ADBEF7" }}
-                      className="uppercase w-1/6"
+                      className="uppercase w-1/5 mr-2"
                     >
                       Primary skillset
                     </div>
@@ -148,7 +189,7 @@ const Index = () => {
                   <div className="flex my-4">
                     <div
                       style={{ color: "#ADBEF7" }}
-                      className="uppercase w-1/6"
+                      className="uppercase w-1/5 mr-2"
                     >
                       Experienced in
                     </div>
@@ -180,7 +221,7 @@ const Index = () => {
                   <div className="flex my-4">
                     <div
                       style={{ color: "#ADBEF7" }}
-                      className="uppercase w-1/6"
+                      className="uppercase w-1/5 mr-2"
                     >
                       Excited about
                     </div>
@@ -205,33 +246,21 @@ const Index = () => {
                 </div>
               </div>
             </div>
-
-            {/* <div
-              style={{
-                width: 200,
-                height: 200,
-                background:
-                  "linear-gradient(-270deg, #E35275 0%, #773FE2 53.28%, #315BE8 100%);",
-              }}
-              className="rounded-full opacity-50 -mt-10"
-            >
-              wasd
-            </div> */}
           </div>
 
           <div className="p-14 w-full">
             <div className="flex">
               <div className="w-1/3 px-4">
                 <textarea
-                  className="bg-transparent w-2/3 border-l-2 pl-4"
+                  className="h-auto bg-transparent w-2/3 border-l-2 pl-4 border-gray-400"
                   placeholder="Add a note (it will only be visible to you)..."
                 ></textarea>
               </div>
               <div className="w-2/3">
-                <div className="bg-white text-black rounded-lg -mt-40 shadow-sm">
+                <div className="bg-white text-black rounded-lg lg:-mt-48 shadow-sm">
                   <div className="p-10">
                     <h2 className="font-extrabold text-2xl mb-4">Mini bio</h2>
-                    <ul className="list-disc ml-5">
+                    <ul className="font-gray-800 text-sm list-disc ml-5">
                       <li className="mb-4">
                         Lived the should Life for a while: college athlete,
                         engineer, early Twitter hire, married college
