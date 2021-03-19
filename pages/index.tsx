@@ -158,7 +158,68 @@ const Index = () => {
               </div>
 
               <div className="w-2/3">
-                <h2 className="text-white text-lg font-bold">Jordan Ortez</h2>
+                <h2 className="flex justify-between text-white text-lg font-bold">
+                  Jordan Ortez
+                  <div className="flex">
+                    <a
+                      href="#"
+                      style={{
+                        background: "#E9EAEC",
+                        width: 27,
+                        height: 27,
+                      }}
+                      className="ml-2 relative rounded-sm text-center text-black"
+                    >
+                      <div
+                        className="absolute text-center w-full"
+                        style={{
+                          fontSize: "9px",
+                          top: -6,
+                        }}
+                      >
+                        ODF
+                      </div>
+                      <div
+                        className="absolute text-center w-full"
+                        style={{
+                          fontSize: "12px",
+                          top: 6,
+                        }}
+                      >
+                        3
+                      </div>
+                    </a>
+
+                    <a
+                      href="#"
+                      style={{
+                        background: "#E9EAEC",
+                        width: 27,
+                        height: 27,
+                      }}
+                      className="ml-2 relative rounded-sm text-center text-black"
+                    >
+                      <div
+                        className="absolute text-center w-full"
+                        style={{
+                          fontSize: "9px",
+                          top: -6,
+                        }}
+                      >
+                        ODA
+                      </div>
+                      <div
+                        className="absolute text-center w-full"
+                        style={{
+                          fontSize: "12px",
+                          top: 6,
+                        }}
+                      >
+                        9
+                      </div>
+                    </a>
+                  </div>
+                </h2>
                 <h3 className="text-gray-100 text-sm">Berlin, Germany</h3>
                 <h1 className="mt-10 text-white text-2xl font-bold">
                   Full stack engineer, builder of companies, starting <br />
