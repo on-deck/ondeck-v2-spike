@@ -56,7 +56,7 @@ const Index = () => {
             className="p-16 animate w-full rounded-xl rounded-t-none"
           >
             <div className="lg:flex md:block">
-              <div className="relative w-1/3 px-4">
+              <div className="relative w-1/3 px-8">
                 <div className="relative z-10 ">
                   <Avatar />
                 </div>
@@ -64,7 +64,7 @@ const Index = () => {
                 <div
                   style={{
                     top: 20,
-                    left: 20,
+                    left: 40,
                     width: 245,
                     height: 245,
                     mixBlendMode: "overlay",
@@ -77,7 +77,7 @@ const Index = () => {
                 <div
                   style={{
                     top: 0,
-                    left: 0,
+                    left: 20,
                     width: 245,
                     height: 245,
                     mixBlendMode: "overlay",
@@ -90,7 +90,7 @@ const Index = () => {
                 <div
                   style={{
                     top: 31,
-                    left: -12,
+                    left: 12,
                     width: 245,
                     height: 245,
                     mixBlendMode: "overlay",
@@ -158,7 +158,7 @@ const Index = () => {
               </div>
 
               <div className="w-2/3">
-                <h2 className="flex justify-between text-white text-lg font-bold">
+                <h2 className="flex justify-between text-white text-xl font-bold">
                   Jordan Ortez
                   <div className="flex">
                     <a
@@ -174,7 +174,7 @@ const Index = () => {
                         className="absolute text-center w-full"
                         style={{
                           fontSize: "9px",
-                          top: -6,
+                          top: -7,
                         }}
                       >
                         ODF
@@ -183,7 +183,7 @@ const Index = () => {
                         className="absolute text-center w-full"
                         style={{
                           fontSize: "12px",
-                          top: 6,
+                          top: 5,
                         }}
                       >
                         3
@@ -203,7 +203,7 @@ const Index = () => {
                         className="absolute text-center w-full"
                         style={{
                           fontSize: "9px",
-                          top: -6,
+                          top: -7,
                         }}
                       >
                         ODA
@@ -212,10 +212,10 @@ const Index = () => {
                         className="absolute text-center w-full"
                         style={{
                           fontSize: "12px",
-                          top: 6,
+                          top: 5,
                         }}
                       >
-                        9
+                        19
                       </div>
                     </a>
                   </div>
