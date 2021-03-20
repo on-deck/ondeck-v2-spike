@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function Navigation() {
   return (
     <nav className="bg-white shadow-sm">
