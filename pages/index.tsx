@@ -305,6 +305,7 @@ const Index = () => {
                   placeholder="Add a note (it will only be visible to you)..."
                 ></textarea>
               </div>
+
               <div className="w-2/3">
                 <div className="bg-white text-black rounded-lg lg:-mt-48 shadow-sm">
                   <div className="p-10">
@@ -413,6 +414,162 @@ const Index = () => {
                   </div>
 
                   <hr />
+                </div>
+
+                <div className="bg-white text-black rounded-lg mt-6 shadow-sm">
+                  <div className="p-10">
+                    <h2 className="font-extrabold text-2xl mb-4">Projects</h2>
+
+                    <div className="flex">
+                      <div className="mr-4">
+                        <div
+                          style={{ width: 64, height: 64, fontSize: "42px" }}
+                          className="flex items-center justify-center h-full w-full bg-gray-100 rounded-xl"
+                        >
+                          🙂
+                        </div>
+                      </div>
+
+                      <div>
+                        <div className="py-1">
+                          <h4 className="text-md font-medium">Gently</h4>
+                          <a
+                            href="#"
+                            className="block text-blue-500 text-md font-light mb-4"
+                          >
+                            www.gently.io
+                          </a>
+                          <p className="text-md font-light">
+                            Gently is based on the idea that we have too many
+                            distractions in our lifes today. The modern world
+                            evolves faster than humans can, so how do we adapt
+                            our approach to interfacing with technology and the
+                            world around us? This is the opportunity...
+                          </p>
+                        </div>
+
+                        <div className="flex my-4 text-md ">
+                          <div className="uppercase w-1/6 mr-2 font-medium text-gray-300">
+                            Sector
+                          </div>
+                          <div>
+                            <a
+                              href="#"
+                              className=" border-b-2 border-dotted border-gray-500"
+                            >
+                              Software engineering
+                            </a>
+                            <span className="px-2" style={{ color: "#ADBEF7" }}>
+                              •
+                            </span>
+                            <a
+                              href="#"
+                              className=" border-b-2 border-dotted border-gray-500"
+                            >
+                              Product management
+                            </a>
+                          </div>
+                        </div>
+
+                        <div className="flex my-4 text-md ">
+                          <div className="uppercase w-1/6 mr-2 font-medium text-gray-300">
+                            Stage
+                          </div>
+                          <div>
+                            <a
+                              href="#"
+                              className=" border-b-2 border-dotted border-gray-500"
+                            >
+                              Exploring ideas
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <hr className="mt-6" />
+
+                  <div className="p-10">
+                    <div className="flex">
+                      <div className="mr-4">
+                        <div
+                          style={{ width: 64, height: 64, fontSize: "42px" }}
+                          className="flex items-center justify-center h-full w-full bg-gray-100 rounded-xl"
+                        >
+                          🎯
+                        </div>
+                      </div>
+
+                      <div>
+                        <div className="py-1">
+                          <h4 className="text-md font-medium">
+                            Acquire Assist
+                          </h4>
+                          <a
+                            href="#"
+                            className="block text-blue-500 text-md font-light mb-4"
+                          >
+                            www.acquireassist.com
+                          </a>
+                          <p className="text-md font-light">
+                            GAcquire Assist is a virtual deal concierge that
+                            helps you complete your acquisition. From drafting
+                            legal docs to orchestrating the transfer of
+                            ownership, you're in good hands.
+                          </p>
+                        </div>
+
+                        <div className="flex my-4 text-md ">
+                          <div className="uppercase w-1/6 mr-2 font-medium text-gray-300">
+                            Sector
+                          </div>
+                          <div>
+                            <a
+                              href="#"
+                              className=" border-b-2 border-dotted border-gray-500"
+                            >
+                              Legal
+                            </a>
+                            <span className="px-2" style={{ color: "#ADBEF7" }}>
+                              •
+                            </span>
+                            <a
+                              href="#"
+                              className=" border-b-2 border-dotted border-gray-500"
+                            >
+                              Saas
+                            </a>
+
+                            <span className="px-2" style={{ color: "#ADBEF7" }}>
+                              •
+                            </span>
+                            <a
+                              href="#"
+                              className=" border-b-2 border-dotted border-gray-500"
+                            >
+                              Future of Work
+                            </a>
+                          </div>
+                        </div>
+
+                        <div className="flex my-4 text-md ">
+                          <div className="uppercase w-1/6 mr-2 font-medium text-gray-300">
+                            Stage
+                          </div>
+                          <div>
+                            <a
+                              href="#"
+                              className=" border-b-2 border-dotted border-gray-500"
+                            >
+                              Starting to onboard customers
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
               </div>
             </div>
