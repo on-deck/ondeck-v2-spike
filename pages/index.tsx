@@ -298,15 +298,15 @@ const Index = () => {
           </div>
 
           <div className="p-14 w-full">
-            <div className="flex">
-              <div className="w-1/3 px-4">
+            <div className="sm:block md:flex">
+              <div className="sm:w-full md:w-1/3 px-4">
                 <textarea
                   className="h-auto bg-transparent w-2/3 border-l-2 pl-4 border-gray-400"
                   placeholder="Add a note (it will only be visible to you)..."
                 ></textarea>
               </div>
 
-              <div className="w-2/3">
+              <div className="sm:w-full md:w-2/3">
                 <div className="bg-white text-black rounded-lg lg:-mt-48 shadow-sm">
                   <div className="p-10">
                     <h2 className="font-extrabold text-2xl mb-4">Mini bio</h2>
