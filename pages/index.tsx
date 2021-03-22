@@ -6,18 +6,20 @@ const Index = () => {
   return (
     <>
       <div className="bg-gray-100">
+        {/*
         <Navigation />
+        */}
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto sm:px-0 lg:px-8">
           <div
             style={{
               background:
                 "linear-gradient(-270deg, #0b1751 0%, #1c114b 53.28%, #2f1529 100%);",
             }}
-            className="p-16 animate w-full rounded-xl rounded-t-none"
+            className="p-16 animate w-full lg:rounded-xl lg:rounded-t-none md:rounded-b-none"
           >
             <div className="lg:flex md:block">
-              <div className="relative w-1/3 px-8">
+              <div className="md:flex lg:block relative lg:w-1/3 px-8">
                 <div className="relative z-10 ">
                   <Avatar />
                 </div>
@@ -26,13 +28,15 @@ const Index = () => {
                   style={{
                     top: 20,
                     left: 40,
-                    width: 245,
-                    height: 245,
+                    width: "100%",
+                    height: "100%",
+                    maxWidth: 245,
+                    maxHeight: 245,
                     mixBlendMode: "overlay",
                     background:
                       "linear-gradient(270deg, #E35275 0%, #773FE2 53.28%, #315BE8 100%);",
                   }}
-                  className=" animate-pulse duration-700 z-0 absolute rounded-full -mt-10"
+                  className="animate-pulse duration-700 z-0 absolute rounded-full -mt-10"
                 ></div>
 
                 <div
