@@ -9,6 +9,7 @@ module.exports = {
     },
   },
   variants: {
+    visibility: ['last'],
     extend: {},
   },
   plugins: [],
