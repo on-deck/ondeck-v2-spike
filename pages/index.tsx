@@ -6,9 +6,7 @@ const Index = () => {
   return (
     <>
       <div className="bg-gray-100">
-        {/*
         <Navigation />
-        */}
 
         <div className="max-w-7xl mx-auto sm:px-0 lg:px-8">
           <div
