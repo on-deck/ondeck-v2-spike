@@ -1,53 +1,7 @@
 import React from "react";
 import Navigation from "../components/Navigation";
 import Avatar from "../components/Avatar";
-
-const GradientShadow = () => {
-  return (
-    <>
-      <div
-        style={{
-          top: 20,
-          left: 40,
-          width: "100%",
-          height: "100%",
-          maxWidth: 245,
-          maxHeight: 245,
-          mixBlendMode: "overlay",
-          background:
-            "linear-gradient(270deg, #E35275 0%, #773FE2 53.28%, #315BE8 100%);",
-        }}
-        className="animate-pulse duration-700 z-0 absolute rounded-full -mt-10"
-      ></div>
-
-      <div
-        style={{
-          top: 0,
-          left: 20,
-          width: 245,
-          height: 245,
-          mixBlendMode: "overlay",
-          background:
-            "linear-gradient(270deg, #E35275 0%, #773FE2 53.28%, #315BE8 100%);",
-        }}
-        className=" animate-pulse delay-200 z-0 absolute rounded-full -mt-10"
-      ></div>
-
-      <div
-        style={{
-          top: 31,
-          left: 12,
-          width: 245,
-          height: 245,
-          mixBlendMode: "overlay",
-          background:
-            "linear-gradient(270deg, #E35275 0%, #773FE2 53.28%, #315BE8 100%);",
-        }}
-        className=" animate-pulse delay-300 z-0 absolute rounded-full -mt-10"
-      ></div>
-    </>
-  );
-};
+import { AvatarGradient } from "../components/AvatarGradient";
 
 const ProfileButtons = () => {
   return (
@@ -145,7 +99,7 @@ function Badge({ program, cohort }: { program: string; cohort: number }) {
 function ProfileTags({ title, tags }: { title: string; tags: string[] }) {
   return (
     <div className="flex my-4">
-      <div className="text-blue-200 uppercase w-1/5 mr-2">
+      <div style={{minWidth: 120}} className="text-indigo-200 uppercase mr-2">
         {title}
       </div>
       <div>
@@ -154,7 +108,7 @@ function ProfileTags({ title, tags }: { title: string; tags: string[] }) {
             <a href="#" className="border-b-2 border-dotted border-gray-500">
               {tag}
             </a>
-            <span className="px-2 last:invisible text-blue-300"
+            <span className="px-2 last:invisible text-indigo-300"
             >
               •
             </span>
@@ -169,7 +123,9 @@ const Index = () => {
   return (
     <>
       <div className="bg-gray-100">
-        <Navigation />
+        <div className="hidden sm:block">
+          <Navigation />
+        </div>
 
         <div className="max-w-7xl mx-auto sm:px-0 lg:px-8">
           <div
@@ -179,26 +135,38 @@ const Index = () => {
             }}
             className="p-16 animate w-full lg:rounded-xl lg:rounded-t-none md:rounded-b-none"
           >
-            <div className="lg:flex md:block">
+            <div className="lg:flex">
               <div className="md:flex lg:block relative lg:w-1/3 px-8">
-                <div className="relative z-10 ">
-                  <Avatar />
+                <div className="hidden lg:block">
+                  <div className="relative z-10">
+                    <Avatar />
+                  </div>
+
+                  <AvatarGradient />
                 </div>
 
-                <GradientShadow />
-
-                <ProfileButtons />
+                <div className="hidden lg:block">
+                  <ProfileButtons />
+                </div>
               </div>
 
-              <div className="w-2/3">
-                <h2 className="flex justify-between text-white text-xl font-bold">
+              <div className="w-2/3 pl-8">
+                <h2 className="flex lg:justify-between text-white text-xl font-bold">
+                  <div className="w-28 lg:hidden">
+                    <div className="relative z-10">
+                      <Avatar />
+                    </div>
+
+                    <AvatarGradient small />
+                  </div>
                   Jordan Ortez
                 </h2>
+
                 <h3 className="text-gray-100 text-sm">Berlin, Germany</h3>
 
-                <div className="mt-10 ">
+                <div className="mt-10">
                   <h1 className="text-white text-2xl font-bold">
-                    Full stack engineer, builder of companies, starting <br />
+                    Full stack engineer, builder of companies, starting
                     something new this year 🤘🤘🤘
                   </h1>
                 </div>
@@ -231,7 +199,6 @@ const Index = () => {
                 <Badge program="NC" cohort={20} />
                 <Badge program="CoS" cohort={1} />
               </div>
-
             </div>
           </div>
 
